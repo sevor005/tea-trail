@@ -1,3 +1,40 @@
 // bower:scss
 // endbower
 
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body * {
+  box-sizing: inherit;
+}
+
+ul, ol, p, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a, a:hover, a:active, a:visited {
+  text-decoration: none;
+}
+
+a, button, input, textarea {
+  outline: none;
+}
+
+@import "page/page.scss";
+@import "logo/logo.scss";
+@import "board-phone/board-phone.scss";
+@import "sidebar/sidebar.scss";
+@import "menu/menu.scss";
+@import "tel/tel.scss";
+@import "map/map.scss";
+@import "kettle-small/kettle-small.scss";
+@import "casual-dishes/casual-dishes.scss";

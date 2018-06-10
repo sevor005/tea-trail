@@ -1,0 +1,10 @@
+&__move {
+  height: 133px;
+  width: 192px;
+  background: url("../images/casual-dishes-move.png") no-repeat;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  z-index: 1;
+  transition: top .2s;
+}

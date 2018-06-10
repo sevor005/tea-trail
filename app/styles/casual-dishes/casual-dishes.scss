@@ -1,0 +1,13 @@
+.casual-dishes {
+  width: 200px;
+  height: 200px;
+  position: relative;
+
+  &:hover .casual-dishes__move {
+    top: 70px;
+  }
+
+  @import "__move/__move.scss";
+  @import "__static/__static.scss";
+  @import "__good/__good.scss";
+}
