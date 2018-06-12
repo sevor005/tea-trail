@@ -1,0 +1,15 @@
+.paper {
+  height: 608px;
+  width: 490px;
+  background: url("../images/paper.png") center no-repeat;
+  font-family: 'Roboto Regular';
+  font-size: 12px;
+  padding-top: 84px;
+  padding-bottom: 70px;
+  padding-left: 104px;
+  padding-right: 104px;
+  color: #675748;
+
+  @import "__title/__title.scss";
+  @import "__text/__text.scss";
+}
