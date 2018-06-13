@@ -1,0 +1,11 @@
+&__toggle {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  opacity: .9;
+  margin-right: 10px;
+  cursor: pointer;
+
+  @import "_left/_left.scss";
+  @import "_right/_right.scss";
+}

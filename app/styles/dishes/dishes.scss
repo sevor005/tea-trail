@@ -1,0 +1,9 @@
+.dishes {
+  width: 427px;
+  height: 570px;
+  background-color: #999;
+  font-size: 0;
+
+  @import "__switch/__switch.scss";
+  @import "__title/__title.scss";
+}

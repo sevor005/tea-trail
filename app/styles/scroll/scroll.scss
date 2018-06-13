@@ -1,0 +1,7 @@
+.scroll {
+  width: 10px;
+
+  @import "__triangle-top/__triangle-top.scss";
+  @import "__triangle-bottom/__triangle-bottom.scss";
+  @import "__line/__line.scss";
+}

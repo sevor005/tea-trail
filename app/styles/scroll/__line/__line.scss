@@ -1,0 +1,18 @@
+&__line {
+  width: 1px;
+  height: 430px;
+  background-color: #948774;
+  box-shadow: 1px -1px 3px #948774;
+  margin: 5px auto;
+  position: relative;
+
+  &::after {
+    content: "";
+    width: 60px;
+    height: 51px;
+    background: url("../images/line-pointer.png") no-repeat;
+    position: absolute;
+    top: 40px;
+    left: 0;
+  }
+}

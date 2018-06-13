@@ -27,6 +27,7 @@ a, a:hover, a:active, a:visited {
 
 a, button, input, textarea {
   outline: none;
+  border: none;
 }
 
 @import "page/page.scss";
@@ -40,5 +41,10 @@ a, button, input, textarea {
 @import "casual-dishes/casual-dishes.scss";
 @import "about/about.scss";
 @import "articles/articles.scss";
-@import "switch/switch.scss";
+@import "switch-article/switch-article.scss";
+@import "switch-goods/switch-goods.scss";
 @import "paper/paper.scss";
+@import "scroll/scroll.scss";
+@import "form/form.scss";
+@import "dishes/dishes.scss";
+@import "goods/goods.scss";
