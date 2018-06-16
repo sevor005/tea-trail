@@ -1,0 +1,11 @@
+&__link {
+  font-family: 'Roboto Slab Light';
+  font-size: 15px;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  transition: border-color .1s;
+
+  &:hover {
+    border-color: transparent;
+  }
+}

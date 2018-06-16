@@ -6,7 +6,13 @@
   margin-right: -4px;
 
   &:hover {
-    
+    animation: scale .7s;
+  }
+
+  @keyframes scale {
+    from { transform: scaleX(1);}
+    50% { transform: scaleX(-1);}
+    to { transform: scaleX(1);}
   }
 
   @import "__circle/__circle.scss";
