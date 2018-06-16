@@ -1,7 +1,10 @@
 &__head {
-  height: 184px;
-  background: url("../images/kettle-head.png") 261px 59px no-repeat;
-  position: relative;
+  width: 358px;
+  height: 205px;
+  background: url("../images/kettle-head.png") no-repeat;
+  position: absolute;
+  top: -96px;
+  left: 214px;
 
   @import "_opened/_opened.scss";
 }

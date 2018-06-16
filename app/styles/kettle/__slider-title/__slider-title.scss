@@ -1,0 +1,11 @@
+&__slider-title {
+  font-size: 36px;
+  font-family: 'doux';
+  color: #fff;
+  text-align: center;
+  transition: color .1s;
+
+  &:hover {
+    color: #e4e0e0;
+  }
+}

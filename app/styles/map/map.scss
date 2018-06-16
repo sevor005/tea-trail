@@ -6,23 +6,23 @@
 
   &::before {
     content: "";
-    height: 142px;
-    width: 52px;
+    height: 166px;
+    width: 68px;
     background: url("../images/map-left.png")  no-repeat;
     position: absolute;
-    top: 14px;
-    left: 8px;
+    top: 4px;
+    left: 0px;
     z-index: 6;
   }
 
   &::after {
     content: "";
-    height: 142px;
-    width: 52px;
+    height: 166px;
+    width: 61px;
     background: url("../images/map-right.png")  no-repeat;
     position: absolute;
-    top: 19px;
-    right: 3px;
+    top: 5px;
+    right: 0px;
     z-index: 6;
   }
 
