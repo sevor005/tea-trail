@@ -1,19 +1,19 @@
 .goods {
-  display: inline-block;
-  // width: 145px;
-  // height: 233px;
-  // background: url("../images/goods-background.png") center center no-repeat;
-  // margin-right: -4px;
+  display: block;
 
   &:hover .goods__container {
-    animation: scale .7s;
+    transform: rotateY(360deg);
   }
 
-  @keyframes scale {
-    from { transform: scaleX(1);}
-    50% { transform: scaleX(-1);}
-    to { transform: scaleX(1);}
-  }
+  // &:hover .goods__container {
+  //   animation: scale .7s;
+  // }
+
+  // @keyframes scale {
+  //   from { transform: scaleX(1);}
+  //   50% { transform: scaleX(-1);}
+  //   to { transform: scaleX(1);}
+  // }
 
   @import "__circle/__circle.scss";
   @import "__info/__info.scss";

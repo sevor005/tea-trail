@@ -1,7 +1,7 @@
 &__container {
-  // display: inline-block;
   width: 145px;
   height: 233px;
   background: url("../images/goods-background.png") center center no-repeat;
-  margin-right: -4px;
+  padding-top: 20px;
+  transition: transform 1s;
 }
