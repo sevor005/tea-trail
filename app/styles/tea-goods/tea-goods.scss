@@ -1,7 +1,7 @@
 .tea-goods {
   width: 437px;
-  height: 469px;
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 9px;
+  height: 585px;
+
+  @import "__switch/__switch.scss";
+  @import "__goods/__goods.scss";
 }
