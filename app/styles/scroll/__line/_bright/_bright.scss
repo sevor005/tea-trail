@@ -1,0 +1,9 @@
+&_bright {
+  background-color: #8fcf78;
+  height: 550px;
+  box-shadow: none;
+
+  &::after {
+    background: url("../images/line-pointer-green.png");
+  }
+}

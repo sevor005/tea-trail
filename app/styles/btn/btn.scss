@@ -1,0 +1,21 @@
+.btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(#729e00, #437200);
+  border-radius: 3px;
+  box-shadow: -1px -1px 1px #839f39;
+  padding: 7px 15px 7px 7px;
+  cursor: pointer;
+  transition: box-shadow .1s;
+
+  &:hover {
+    box-shadow: none;
+  }
+
+  @import "__section-left/__section-left.scss";
+  @import "__quantity/__quantity.scss";
+  @import "__minus/__minus.scss";
+  @import "__plus/__plus.scss";
+  @import "__text/__text.scss";
+}
