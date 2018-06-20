@@ -1,0 +1,12 @@
+&__tea {
+  display: none;
+  width: 37px;
+  height: 34px;
+  background: url("../images/basket-tea.png") center no-repeat;
+  position: absolute;
+  top: 30px;
+  left: -6px;
+  transition: top .4s, left .4s;
+
+  @import "_road/_road.scss";
+}

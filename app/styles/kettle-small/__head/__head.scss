@@ -1,7 +1,11 @@
 &__head {
-  height: 80px;
-  background: url("../images/kettle-small-head.png") 50px 33px no-repeat;
-  transition: background-position .4s, transform .4s;
+  height: 34px;
+  width: 80px;
+  background: url("../images/kettle-small-head.png") no-repeat;
+  position: absolute;
+  top: 33px;
+  left: 49px;
+  transition: top .4s, left .4s, transform .4s;
 
   @import "_opened/_opened.scss";
 }

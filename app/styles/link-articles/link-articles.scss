@@ -1,4 +1,4 @@
-&__link {
+.link-articles {
   font-family: 'Roboto Slab Light';
   font-size: 15px;
   color: #fff;
@@ -8,4 +8,6 @@
   &:hover {
     border-color: transparent;
   }
+
+  @import "_darker/_darker.scss";
 }
