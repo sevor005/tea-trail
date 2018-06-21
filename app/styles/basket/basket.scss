@@ -1,0 +1,9 @@
+.basket {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  @import "__scroll/__scroll.scss";
+  @import "__order/__order.scss";
+}

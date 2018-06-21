@@ -1,37 +1,37 @@
 &__close {
-  width: 16px;
-  height: 16px;
+  width: 17px;
+  height: 17px;
   border-radius: 50%;
-  background-color: #999;
-  position: absolute;
-  top: 10px;
-  right: 9px;
+  background-color: #e54b4b;
   cursor: pointer;
+  position: relative;
+  margin-left: 27px;
+  margin-top: 3px;
   transition: background-color .2s;
 
   &::before {
     content: "";
-    width: 1px;
-    height: 9px;
+    width: 3px;
+    height: 10px;
     position: absolute;
-    top: 4px;
-    right: 8px;
+    top: 3px;
+    right: 7px;
     background-color: #fff;
     transform: rotate(40deg);
   }
 
   &::after {
     content: "";
-    width: 1px;
-    height: 9px;
+    width: 3px;
+    height: 10px;
     position: absolute;
-    top: 4px;
-    right: 8px;
+    top: 3px;
+    right: 7px;
     background-color: #fff;
     transform: rotate(-40deg);
   }
 
   &:hover {
-    background-color: #666;
+    background-color: #e40404;
   }
 }
