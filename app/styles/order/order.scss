@@ -1,9 +1,7 @@
 .order {
   display: flex;
   justify-content: space-between;
-  padding: 3px 0;
-  padding-right: 17px;
-  padding-bottom: 7px;
+  padding: 3px 17px 7px 3px;
   border-top: 2px solid #e2dede;
 
   &:last-child {

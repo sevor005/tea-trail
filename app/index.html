@@ -467,8 +467,60 @@
                 <div class="order__close"></div>
               </div>
             </div>
+            <div class="basket__total">Итого: 2480 р.</div>
+            <div class="basket__delivery">
+              <div class="delivery">
+                <div class="delivery__option">
+                  <input type="radio" class="delivery__radio" name="delivery" id="option-one">
+                  <label for="option-one">
+                    <div class="delivery__title">Доставка почтой России</div>
+                  </label>
+                </div>
+                <div class="delivery__subtitle">- стоймость доставки в любую точку России 300 р.</div>
+                <div class="delivery__subtitle">- заказ от 5000 р доставка бесплатная</div>
+              </div>
+              <div class="delivery">
+                <div class="delivery__option">
+                  <input type="radio" class="delivery__radio" name="delivery" id="option-two">
+                  <label for="option-two">
+                    <div class="delivery__title">Доставка по городу Рубцовску</div>
+                  </label>
+                </div>
+                <div class="delivery__subtitle">- Бесплатно</div>
+              </div>
+              <div class="delivery">
+                <div class="delivery__option">
+                  <input type="radio" class="delivery__radio" name="delivery" id="option-three">
+                  <label for="option-three">
+                    <div class="delivery__title">Доставка в любую точку страны удобной для вас транспортной компанией</div>
+                  </label>
+                </div>
+                <div class="delivery__subtitle">- Энергия, ПЭК, Слон, СДЭК, КИТ, EMS</div>
+                <div class="delivery__subtitle">- Стоимость доставки зависит от пункта назначения</div>
+              </div>
+            </div><!-- End basket__delivery -->
+            <div class="basket__form">
+              <form action="" class="basket-form">
+                <div class="basket-form__title">Адрес получателя</div>
+                <div class="basket-form__caption">ФИО</div>
+                <input type="text" class="basket-form__field" required autocomplete="on">
+                <div class="basket-form__caption">Email</div>
+                <input type="email" class="basket-form__field" required autocomplete="on">
+                <div class="basket-form__caption">Телефон</div>
+                <input type="tel" class="basket-form__field" autocomplete="on">
+                <div class="basket-form__caption">Область, край, республика</div>
+                <input type="text" class="basket-form__field" required autocomplete="on">
+                <div class="basket-form__caption">Населенный пункт</div>
+                <input type="text" class="basket-form__field" required autocomplete="on">
+                <div class="basket-form__caption">Индекс</div>
+                <input type="text" class="basket-form__field" required autocomplete="on">
+                <div class="basket-form__caption">Адрес</div>
+                <input type="text" class="basket-form__field" required autocomplete="on">
+              </form>
+              <div class="basket-form__btn">Оформить заказ</div>
+            </div>
           </div>
-        </div>
+        </div><!-- End basket -->
       </div>
     </div><!-- End page -->
     <!-- build:js scripts/vendor.js -->
