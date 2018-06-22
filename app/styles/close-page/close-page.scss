@@ -1,6 +1,6 @@
 .close-page {
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   background-color: #999;
   position: absolute;
@@ -11,22 +11,22 @@
 
   &::before {
     content: "";
-    width: 1px;
-    height: 9px;
+    width: 2px;
+    height: 10px;
     position: absolute;
-    top: 4px;
-    right: 8px;
+    top: 5px;
+    right: 9px;
     background-color: #fff;
     transform: rotate(40deg);
   }
 
   &::after {
     content: "";
-    width: 1px;
-    height: 9px;
+    width: 2px;
+    height: 10px;
     position: absolute;
-    top: 4px;
-    right: 8px;
+    top: 5px;
+    right: 9px;
     background-color: #fff;
     transform: rotate(-40deg);
   }

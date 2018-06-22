@@ -6,4 +6,9 @@
   padding: 5px 10px;
   border-radius: 3px;
   border: 1px solid #bebebe;
+  
+  &:focus {
+  border-color: #a3c626;
+  box-shadow: 0 0 2px #a3c626 inset;
+  }
 }
