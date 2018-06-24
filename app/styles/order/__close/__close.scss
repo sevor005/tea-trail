@@ -11,24 +11,24 @@
 
   &::before {
     content: "";
-    width: 3px;
-    height: 11px;
+    width: 2px;
+    height: 10px;
     position: absolute;
     top: 5px;
-    right: 8px;
+    right: 9px;
     background-color: #fff;
-    transform: rotate(40deg);
+    transform: rotate(41deg);
   }
 
   &::after {
     content: "";
-    width: 3px;
-    height: 11px;
+    width: 2px;
+    height: 10px;
     position: absolute;
     top: 5px;
-    right: 8px;
+    right: 9px;
     background-color: #fff;
-    transform: rotate(-40deg);
+    transform: rotate(-41deg);
   }
 
   &:hover {
