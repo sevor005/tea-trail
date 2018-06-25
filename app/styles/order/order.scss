@@ -4,10 +4,6 @@
   padding: 3px 17px 7px 3px;
   border-top: 2px solid #e2dede;
 
-  &:last-child {
-    border-bottom: 2px solid #e2dede;
-  }
-
   @import "__section/__section.scss";
   @import "__img/__img.scss";
   @import "__title/__title.scss";

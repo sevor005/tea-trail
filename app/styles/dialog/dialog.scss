@@ -1,11 +1,16 @@
-.description-case {
+.dialog {
   width: 640px;
   height: 640px;
   background-color: #fff;
   border-radius: 5px;
   color: #666;
   padding: 39px 30px 15px 28px;
-  overflow: hidden;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
 
   @import "_for_basket/_for_basket.scss";
+  @import "__close/__close.scss";
+  @import "__scroll/__scroll";
 }
