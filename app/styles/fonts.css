@@ -10,7 +10,10 @@
 
 @font-face {
   font-family: 'doux';
-  src: url('../fonts/doux/doux-medium.ttf') format('truetype');
+  src: url('../fonts/doux/Doux-Medium.eot');
+  src: url('../fonts/doux/Doux-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/doux/Doux-Medium.woff') format('woff'),
+  url('../fonts/doux/Doux-Medium.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
